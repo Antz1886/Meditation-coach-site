@@ -1,5 +1,5 @@
 /**
- * Antigravity Agent - Voice Handler & Visualizer
+ * Mind-Craft Coach - Voice Handler & Visualizer
  * Handles the Web Audio API for frequency-reactive animations
  */
 
@@ -97,5 +97,5 @@ class VoiceHandler {
 
 // Initialize on load
 window.addEventListener('DOMContentLoaded', () => {
-    window.antigravity = new VoiceHandler();
+    window.mindcraft = new VoiceHandler();
 });

@@ -1,6 +1,6 @@
 # The AgentMesh Philosophy
 
-The Antigravity Agent is built on the **AgentMesh** design—a decentralized, resolution-first architecture where AI and humans collaborate as a unified workforce.
+The Mind-Craft Coach is built on the **AgentMesh** design—a decentralized, resolution-first architecture where AI and humans collaborate as a unified workforce.
 
 ## Core Pillars
 

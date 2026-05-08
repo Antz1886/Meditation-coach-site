@@ -1,10 +1,10 @@
-# Antigravity Agent | Agentic Wellness Platform
+# Mind-Craft Coach | Agentic Wellness Platform
 > "Stop completing tracks. Start resolving states."
 
 [![UI Preview](./meditation_app_ui_1778244658928.png)](./meditation_app_ui_1778244658928.png)
 
 ## 📌 Project Overview
-The **Antigravity Agent** is a production-grade Agentic Workforce platform designed to provide instant mental clarity through AI-driven "Micro-Resets" and seamless human coaching integration. Built for the "Instant Economy," it treats mental wellness as a system uptime problem—resolving "mental lag" with sub-200ms precision.
+The **Mind-Craft Coach** is a production-grade Agentic Workforce platform designed to provide instant mental clarity through AI-driven "Micro-Resets" and seamless human coaching integration. Built for the "Instant Economy," it treats mental wellness as a system uptime problem—resolving "mental lag" with sub-200ms precision.
 
 This project showcases a full-stack, AgentMesh architecture where AI and humans collaborate to deliver a unified "Resolution-First" service.
 

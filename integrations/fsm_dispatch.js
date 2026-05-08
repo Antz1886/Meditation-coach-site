@@ -1,5 +1,5 @@
 /**
- * Antigravity Agent - Zoho FSM Dispatch Logic
+ * Mind-Craft Coach - Zoho FSM Dispatch Logic
  * Triggers a coach dispatch event when "Talk to a Pro" is clicked.
  */
 

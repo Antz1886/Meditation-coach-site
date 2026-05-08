@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-app = FastAPI(title="Antigravity Agent API")
+app = FastAPI(title="Mind-Craft Coach API")
 
 # Enable CORS for frontend communication
 app.add_middleware(

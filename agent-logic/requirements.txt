@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+google-generativeai
+elevenlabs
+python-dotenv
+httpx

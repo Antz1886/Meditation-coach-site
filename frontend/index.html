@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antigravity Agent | Resolution-First Meditation</title>
+    <meta name="description" content="Resolve your mental state with AI-driven micro-resets and human-empathy coaching. The future of agentic wellness.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="mission-control">
+        <header>
+            <div class="logo">ANTIGRAVITY</div>
+            <div class="status-indicator">
+                <span class="pulse"></span> SYSTEM: READY
+            </div>
+        </header>
+
+        <main>
+            <div class="gravity-well-container">
+                <div id="gravity-well" class="gravity-well">
+                    <!-- The Orb will be animated via CSS and handled by JS -->
+                    <div class="orb-inner"></div>
+                    <div class="orb-outer"></div>
+                    <div class="orb-aura"></div>
+                </div>
+            </div>
+
+            <div class="interface-overlay">
+                <div class="vibe-display">
+                    <span id="vibe-text">Awaiting input...</span>
+                </div>
+                
+                <div class="controls">
+                    <button id="start-session" class="btn-primary">
+                        <span class="btn-icon"></span>
+                        INITIATE RESOLUTION
+                    </button>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="stats">
+                <div class="stat-item">
+                    <span class="label">LATENCY</span>
+                    <span class="value" id="latency-val">-- ms</span>
+                </div>
+                <div class="stat-item">
+                    <span class="label">ENGINE</span>
+                    <span class="value">GEMINI 3 FLASH</span>
+                </div>
+            </div>
+            <div class="bridge-cta">
+                <button id="talk-pro" class="btn-secondary">TALK TO A PRO</button>
+            </div>
+        </footer>
+    </div>
+
+    <script src="voice-handler.js"></script>
+    <script src="../integrations/fsm_dispatch.js"></script>
+</body>
+</html>

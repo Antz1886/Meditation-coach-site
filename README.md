@@ -3,6 +3,10 @@
 
 [![UI Preview](./meditation_app_ui_1778244658928.png)](./meditation_app_ui_1778244658928.png)
 
+## 🔗 Quick Links
+- **Live Demo (GitHub Pages)**: [https://antz1886.github.io/Meditation-coach-site/frontend/](https://antz1886.github.io/Meditation-coach-site/frontend/)
+- **Local Development URL**: [http://localhost:8000](http://localhost:8000) (using Python server)
+
 ## 📌 Project Overview
 The **Mind-Craft Coach** is a production-grade Agentic Workforce platform designed to provide instant mental clarity through AI-driven "Micro-Resets" and seamless human coaching integration. Built for the "Instant Economy," it treats mental wellness as a system uptime problem—resolving "mental lag" with sub-200ms precision.
 
@@ -30,7 +34,11 @@ This project showcases a full-stack, AgentMesh architecture where AI and humans 
 ```
 
 ## 🚦 Getting Started
-1. **Frontend**: Open `frontend/index.html` in your browser.
+1. **Frontend**: Serve the frontend folder using a local server:
+   ```bash
+   python3 -m http.server 8000 --directory frontend
+   ```
+   Then navigate to [http://localhost:8000](http://localhost:8000).
 2. **Backend**:
    ```bash
    cd agent-logic
@@ -38,6 +46,13 @@ This project showcases a full-stack, AgentMesh architecture where AI and humans 
    python3 main.py
    ```
 3. **Environment**: Add your `GEMINI_API_KEY`, `ELEVEN_LABS_API_KEY`, and `ZAPIER_ZOHO_WEBHOOK` to the `.env` file in the `agent-logic` directory.
+
+## 📝 Recent Changes
+- **Project Rebranding**: Renamed the entire platform from *Antigravity Agent* to **Mind-Craft Coach** across all UI headers, page titles, prompt configurations, API setups, and system documentation.
+- **Repository Security & Clean-up**:
+  - Added a comprehensive `.gitignore` file to prevent committing local `.env` configuration files, Python/Node.js virtual environments, caches, and system files.
+  - Securely untracked `agent-logic/.env` from the repository history to protect API secrets (Gemini & ElevenLabs).
+- **Local Server Support**: Updated frontend serving documentation to recommend Python's HTTP module on port 8000 to resolve relative path imports cleanly.
 
 ---
 *Developed by Ansdev as part of the **Agentic Workforce** portfolio.*
